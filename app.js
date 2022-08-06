@@ -24,8 +24,9 @@ const main = async() => {
 		opt = await inquirerMenu();
 		
 		switch(opt){
+			
+			//Crear tarea
 			case '1':
-				//Crear tarea
 
 				//Leer el input
 				const desc = await leerInput('Descripción:');
@@ -35,10 +36,12 @@ const main = async() => {
 
 			break;
 
+			//Listar tareas
 			case '2':
-
-				console.log(tareas.listadoArr);
 				
+				//Llamar al listado de tareas
+				tareas.listadoCompleto();
+
 			break;
 		}
 
