@@ -29,7 +29,7 @@ const main = async() => {
 
 			case '2':
 
-				console.log(tareas._listado);
+				console.log(tareas.listadoArr);
 				
 			break;
 		}
