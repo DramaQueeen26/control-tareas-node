@@ -1,6 +1,6 @@
-# Aplicación de cónsola interactiva de control de tareas
+# Aplicación de consola
 
-Aplicación programada del curso de NodeJS de Udemy.
+Aplicación de consola interactiva para el control de tareas
 
 ## Notas
 
